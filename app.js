@@ -19,6 +19,9 @@ function getData(url) {
             img.classList.add('shake-img')
             const { value: joke } = JSON.parse(xhr.responseText)
             content.textContent = joke
+            setTimeout(() => {
+
+            },1000)
         }
         else {
             console.log({
