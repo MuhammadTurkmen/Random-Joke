@@ -7,8 +7,8 @@ const URL = 'https://api.chucknorris.io/jokes/random'
 
 btn.addEventListener('click', () => {
     getData(URL)
-    .then(response => console.log(response))
-    .catch(err => console.log(err))
+    .then((response) => )
+    .catch((err) => console.log(err))
 })
 
 function getData(url) {
