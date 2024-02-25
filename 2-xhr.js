@@ -29,3 +29,7 @@ function getData(url) {
         
     })
 }
+
+function displayData() {
+    
+}
