@@ -20,6 +20,7 @@ function getData(url) {
                 resolve(xhr.responseText)
             }
             else {
+                reject()
                 console.log({
                     status: xhr.status,
                     text: xhr.statusText
