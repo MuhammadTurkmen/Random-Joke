@@ -22,7 +22,7 @@ function getData(url) {
             const random = Math.random() * 1000
             setTimeout(() => {
                 img.classList.remove('shake-img')
-            },1000)
+            }, random)
         }
         else {
             console.log({
