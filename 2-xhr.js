@@ -30,7 +30,7 @@ function getData(url) {
     })
 }
 
-function displayData() {
+function displayData(data) {
     img.classList.add('shake-img')
     const { value: joke } = JSON.parse(xhr.responseText)
     content.textContent = joke
