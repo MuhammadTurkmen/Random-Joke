@@ -17,7 +17,7 @@ function getData(url) {
         xhr.onreadystatechange = function () {
             if(xhr.readyState !== 4)return
             if(xhr.status === 200) {
-                
+                resolve()
             }
             else {
                 console.log({
