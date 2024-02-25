@@ -17,5 +17,10 @@ function getData(url) {
         if(xhr.status === 200) {
             console.log(xhr.responseText);
         }
+        else {
+            console.log({
+                status: xhr.status
+            });
+        }
     }
 }
