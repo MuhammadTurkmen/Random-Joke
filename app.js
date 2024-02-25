@@ -13,7 +13,7 @@ function getData(url) {
     const xhr = new XMLHttpRequest()
     xhr.open('GET', url)
     xhr.send()
-    xhr.onreadystatechange = function () {
+    xhr.onreadystatechange = function () { 
         if(xhr.readyState !== 4)return
         if(xhr.status === 200) {
             img.classList.add('shake-img')
