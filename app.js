@@ -9,7 +9,7 @@ btn.addEventListener('click', () => {
     getData(URL)
 })
 
-function getData(url) {
+function getData(url) { 
     const xhr = new XMLHttpRequest()
     xhr.open('GET', url)
     xhr.send()
