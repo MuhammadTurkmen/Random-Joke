@@ -15,7 +15,7 @@ function getData(url) {
     xhr.onreadystatechange = function () {
         if(xhr.readyState !== 4)return
         if(xhr.status === 200) {
-            const {value:joke} = JSON.parse(xhr.responseText)
+            const { value: joke } = JSON.parse(xhr.responseText)
             content.textContent = joke
             console.log(response);
         }
