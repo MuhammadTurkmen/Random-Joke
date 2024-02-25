@@ -13,6 +13,8 @@ function getData(url) {
     xhr.open('GET', url)
     xhr.send()
     xhr.onreadystatechange = function () {
-        
+        if(xhr.readyState !== 4) {
+            
+        }
     }
 }
