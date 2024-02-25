@@ -24,7 +24,6 @@ function getData(url) {
                     status: xhr.status,
                     text: xhr.statusText
                 })
-                console.log();
             }
         }
         
