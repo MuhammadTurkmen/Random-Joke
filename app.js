@@ -9,5 +9,5 @@ btn.addEventListener('click', () => {
 })
 
 function getData(url) {
-    const xhr =
+    const xhr = new XMLHttpRequest()
 }
