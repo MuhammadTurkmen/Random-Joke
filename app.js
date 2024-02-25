@@ -20,7 +20,7 @@ function getData(url) {
             const { value: joke } = JSON.parse(xhr.responseText)
             content.textContent = joke
             setTimeout(() => {
-
+                img.classList.remove('shake-img')
             },1000)
         }
         else {
