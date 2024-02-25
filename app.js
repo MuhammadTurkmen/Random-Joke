@@ -16,6 +16,7 @@ function getData(url) {
         if(xhr.readyState !== 4)return
         if(xhr.status === 200) {
             const response = JSON.parse(xhr.responseText)
+            console.log(response);
         }
         else {
             console.log({
