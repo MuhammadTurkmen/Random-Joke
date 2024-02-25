@@ -15,7 +15,7 @@ function getData(url) {
     xhr.send()
     xhr.onreadystatechange = function () {  
         if(xhr.readyState !== 4)return
-        if(xhr.status === 200) {
+        if(xhr.status === 200) { 
             img.classList.add('shake-img')
             const { value: joke } = JSON.parse(xhr.responseText) 
             content.textContent = joke
