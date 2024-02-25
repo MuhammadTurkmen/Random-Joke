@@ -10,8 +10,8 @@ btn.addEventListener('click', () => {
 })
 
 function getData(url) {
-    return new Promise(() => {
-        
+    return new Promise((resolve, reject) => {
+
     })
     const xhr = new XMLHttpRequest()
     xhr.open('GET', url)
