@@ -17,7 +17,7 @@ function getData(url) {
         if(xhr.readyState !== 4)return
         if(xhr.status === 200) {
             img.classList.add('shake-img')
-            const { value: joke } = JSON.parse(xhr.responseText)
+            const { value: joke } = JSON.parse(xhr.responseText) 
             content.textContent = joke
             const random = Math.random() * 1000
             setTimeout(() => {
