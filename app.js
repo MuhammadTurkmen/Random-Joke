@@ -19,7 +19,8 @@ function getData(url) {
         }
         else {
             console.log({
-                status: xhr.status
+                status: xhr.status,
+                text: xhr.statusText
             });
         }
     }
