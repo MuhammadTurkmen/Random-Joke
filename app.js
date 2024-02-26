@@ -5,7 +5,7 @@ const img = document.querySelector('.container img')
 const URL = 'https://api.chucknorris.io/jokes/random'
 
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', async () => {
     fetch(URL)
     .then((data) => data.json())
     .then(response => displayData(response))
