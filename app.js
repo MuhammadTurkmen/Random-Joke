@@ -12,7 +12,7 @@ btn.addEventListener('click', async () => {
         displayData(response)
         
     } catch (error) {
-        
+        console.log(error);
     }
 })
 
