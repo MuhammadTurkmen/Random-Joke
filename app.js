@@ -6,7 +6,7 @@ const URL = 'https://api.chucknorris.io/jokes/random'
 
 
 btn.addEventListener('click', () => {
-    fetch(URL)
+    fetch(URL).then((data) => console.log(data))
 })
 
 function getData(url) {
