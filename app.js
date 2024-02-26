@@ -34,7 +34,7 @@ function getData(url) {
 
 function displayData(data) {
     img.classList.add('shake-img')
-    const { value: joke } = JSON.parse(data)
+    const { value: joke } = data
     content.textContent = joke
     const random = Math.random() * 1000
     setTimeout(() => {
